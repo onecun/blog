@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/desktop.css">
+  <link media="(max-width: 768px)" rel="stylesheet" href="./css/mobile.css">
+  <title>写博客</title>
+  <script src="js/gua.js"></script>
+</head>
+
+<body>
+  <div class="blog-add">
+    <div class="blog-write-title">
+      <label> 
+      博客标题
+      <input id="id-add-title" type="text" value="">
+    </label>
+    </div>
+    <div class="blog-write-author">
+      <label>
+      博客作者
+      <input id="id-add-author" type="text" value="">
+    </label>
+    </div>
+    
+    <div class="blog-write-content">
+      <label>
+      博客内容
+      <textarea id="id-add-content" cols="30" rows="10" value=""></textarea>
+    </label>
+    </div>
+
+    <button id="id-add-submit">发表新博客</button>
+  </div>
+  <script src="js/write.js"></script>
+</body>
+
+</html>

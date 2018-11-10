@@ -1,0 +1,46 @@
+.side-bar {
+  width: 100%;
+  float: none;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.main .article-list,
+.article {
+  margin: 0;
+}
+
+.side-bar .header,
+.side-bar .nav,
+.side-bar .tag-list {
+  text-align: center;
+}
+
+.side-bar .nav,
+.side-bar .tag-list {
+  display: none;
+}
+
+#menu-toggle {
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgba(255,255,255,.7);
+}
+
+#menu-checkbox:checked ~ .nav,
+#menu-checkbox:checked ~ .tag-list {
+  display: block;
+}
+
+.side-bar .nav a,
+.side-bar .tag-list a {
+  display: inline-block;
+}
